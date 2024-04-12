@@ -12,3 +12,12 @@ public static double calculateAVG(int[] nums){
     return (double)sum/nums.Length
 }
 
+public static int findMax(int[] nums){
+    int max = nums[0]
+    for(int i = 1; i <nums.Length; i++){
+        if(nums[i] > max){
+            max = nums[i];
+        }
+    }
+    return max;
+}
