@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 public static double calculateAVG(int[] nums){
-    int sum = 0;
+    int sum1 = 0;
     if(nums.Length == 0){
         return 0;
     }else{
