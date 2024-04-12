@@ -1,15 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 public static double calculateAVG(int[] nums){
-    int sum2 = 0;
+<<<<<<< HEAD
+    int sum = 0;
+=======
+    int sum = 0;
+>>>>>>> feature-new
     if(nums.Length == 0){
         return 0;
     }else{
         foreach(int num in nums){
-            sum2 += num;
+            sum += num;
         }
     }
-    return (double)sum2/nums.Length
+    return (double)sum/nums.Length
 }
 
 public static int findMax(int[] nums){
